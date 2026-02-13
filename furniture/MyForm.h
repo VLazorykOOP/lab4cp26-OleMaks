@@ -61,7 +61,7 @@ namespace furniture {
 			   this->Controls->Add(this->button1);
 			   this->Controls->Add(this->dataGridView1);
 			   this->Name = L"MyForm";
-			   this->Text = L"Облік меблів (Варіант 12)";
+			   this->Text = L"Облік меблів";
 			   this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			   this->ResumeLayout(false);
